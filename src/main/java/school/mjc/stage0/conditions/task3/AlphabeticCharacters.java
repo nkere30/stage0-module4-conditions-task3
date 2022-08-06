@@ -8,7 +8,7 @@ public class AlphabeticCharacters {
                 character == 'u';
         boolean isVowel = isUpperVowel || isLowerVowel;
         if(!((character >= 65 && character <= 90) || (character >= 97 && character <= 122))) {
-            System.out.println("wrong alphabet");
+            System.out.println("wrong alphabet!");
         } else if(isVowel){
             System.out.println("Vowel");
         } else {
